@@ -1,0 +1,21 @@
+# Ignore everything in these folders except .gitkeep
+uploads/*
+!uploads/.gitkeep
+
+DB/*
+!DB/.gitkeep
+
+embeddings_cache/*
+!embeddings_cache/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+
+.venv/
+*venv/
+env/
